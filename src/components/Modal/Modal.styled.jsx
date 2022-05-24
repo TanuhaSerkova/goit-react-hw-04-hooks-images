@@ -18,3 +18,23 @@ export const ModalStyled = styled.div`
     max-height: calc(100vh - 24px);
     background-color: #fff;
 `;
+
+export const BtnClose = styled.button`
+    position: absolute;
+    top: 12px;
+    right: 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.4;
+    background: gray;
+    transition: all 0.3;
+    &:hover,
+    :focus {
+        opacity: 1;
+    }
+`;
