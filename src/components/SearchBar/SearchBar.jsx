@@ -24,11 +24,6 @@ export function SearchBar({ onSubmit }) {
         return;
         }
         onSubmit(query);
-        reset();
-    };
-
-    const reset = () => {
-        setQuery('');
     };
 
     return (
